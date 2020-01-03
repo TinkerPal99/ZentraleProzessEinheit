@@ -1,0 +1,11 @@
+<root>
+        <Name>Pitank Mark I</Name>
+        <Status>Deactivated</Status>
+        <JobUrl>172.168.8.200/main</JobUrl>
+        <JOL>True</JOL>
+        <Adminpasscode>6489 3956</Adminpasscode>
+        <License>
+                <Distance>False</Distance>
+                <Airsense>False</Airsense>
+        </License>
+</root>

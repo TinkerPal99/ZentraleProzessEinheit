@@ -1,0 +1,658 @@
+2019-12-31 14:07:44,467|1644-INFO-Logged and loaded.
+2019-12-31 14:07:44,483|1644-INFO-Windows classes properly loaded.
+2019-12-31 14:07:44,483|1644-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:07:44,999|1644-INFO-GUI initialized
+2019-12-31 14:08:03,957|1644-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 14:08:06,019|1644-INFO-Opened Controlunit
+2019-12-31 14:08:19,201|1644-INFO-Call for Admin
+2019-12-31 14:11:19,536|10736-INFO-Logged and loaded.
+2019-12-31 14:11:19,552|10736-INFO-Windows classes properly loaded.
+2019-12-31 14:11:19,552|10736-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:11:19,786|10736-INFO-GUI initialized
+2019-12-31 14:11:29,252|10736-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 14:11:30,516|10736-INFO-Call for Controlwindow
+2019-12-31 14:11:32,328|10736-INFO-Call for Adminwindow
+2019-12-31 14:13:42,693|10736-INFO-GUI closed.
+2019-12-31 14:45:10,947|8184-INFO-Logged and loaded.
+2019-12-31 14:45:10,947|8184-INFO-Windows classes properly loaded.
+2019-12-31 14:45:10,947|8184-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:47:59,802|1448-INFO-Logged and loaded.
+2019-12-31 14:47:59,802|1448-INFO-Windows classes properly loaded.
+2019-12-31 14:47:59,802|1448-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:48:54,736|10836-INFO-Logged and loaded.
+2019-12-31 14:48:54,750|10836-INFO-Windows classes properly loaded.
+2019-12-31 14:48:54,766|10836-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:49:03,622|6768-INFO-Logged and loaded.
+2019-12-31 14:49:03,622|6768-INFO-Windows classes properly loaded.
+2019-12-31 14:49:03,622|6768-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:53:10,312|7548-INFO-Logged and loaded.
+2019-12-31 14:53:10,312|7548-INFO-Windows classes properly loaded.
+2019-12-31 14:53:10,312|7548-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 14:54:00,746|7948-INFO-Logged and loaded.
+2019-12-31 14:54:00,746|7948-INFO-Windows classes properly loaded.
+2019-12-31 14:54:00,760|7948-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 15:16:42,686|468-INFO-Logged and loaded.
+2019-12-31 15:16:42,732|468-INFO-Windows classes properly loaded.
+2019-12-31 15:16:42,732|468-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 15:16:43,075|468-INFO-GUI initialized
+2019-12-31 15:16:56,525|468-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 15:16:58,976|468-INFO-Call for Controlwindow
+2019-12-31 15:17:02,398|468-INFO-Call for Adminwindow
+2019-12-31 15:18:49,003|1848-INFO-Logged and loaded.
+2019-12-31 15:18:49,003|1848-INFO-Windows classes properly loaded.
+2019-12-31 15:18:49,003|1848-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 15:18:49,269|1848-INFO-GUI initialized
+2019-12-31 15:18:51,769|1848-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 15:18:52,612|1848-INFO-Call for Controlwindow
+2019-12-31 15:18:53,892|1848-INFO-Call for Controlwindow
+2019-12-31 15:19:34,770|1848-INFO-Call for Controlwindow
+2019-12-31 15:19:37,332|1848-INFO-Call for Controlwindow
+2019-12-31 15:19:44,720|1848-INFO-GUI closed.
+2019-12-31 15:20:52,618|6904-INFO-Logged and loaded.
+2019-12-31 15:20:52,618|6904-INFO-Windows classes properly loaded.
+2019-12-31 15:20:52,618|6904-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 15:20:52,835|6904-INFO-GUI initialized
+2019-12-31 15:20:55,664|6904-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 15:21:00,584|6904-INFO-Call for Adminwindow
+2019-12-31 15:21:02,490|6904-INFO-Call for Controlwindow
+2019-12-31 16:41:16,447|10464-INFO-Logged and loaded.
+2019-12-31 16:41:16,463|10464-INFO-Windows classes properly loaded.
+2019-12-31 16:41:16,463|10464-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 16:49:34,947|2412-INFO-Logged and loaded.
+2019-12-31 16:49:34,963|2412-INFO-Windows classes properly loaded.
+2019-12-31 16:49:34,963|2412-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 16:49:35,227|2412-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:/Users/marwi/PycharmProjects/ZPE/ZentraleProzessEinheit/__init__.py", line 30, in <module>
+    t1.start()
+NameError: name 't1' is not defined
+2019-12-31 16:50:32,915|8264-INFO-Logged and loaded.
+2019-12-31 16:50:32,915|8264-INFO-Windows classes properly loaded.
+2019-12-31 16:50:32,915|8264-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 16:50:33,134|8264-INFO-GUI initialized
+2019-12-31 16:50:57,482|8264-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 16:50:59,091|8264-INFO-Call for Controlwindow
+2019-12-31 16:52:00,509|8264-INFO-Call for Adminwindow
+2019-12-31 16:52:02,960|8264-INFO-GUI closed.
+2019-12-31 16:55:10,865|8808-INFO-Logged and loaded.
+2019-12-31 16:55:10,880|8808-INFO-Windows classes properly loaded.
+2019-12-31 16:55:10,880|8808-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 16:55:11,552|8808-INFO-GUI initialized
+2019-12-31 16:55:14,003|8808-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 16:55:18,581|8808-INFO-Call for Adminwindow
+2019-12-31 16:55:23,111|8808-INFO-Call for Controlwindow
+2019-12-31 16:55:24,048|8808-INFO-Call for Adminwindow
+2019-12-31 17:02:38,002|7064-INFO-Logged and loaded.
+2019-12-31 17:02:38,002|7064-INFO-Windows classes properly loaded.
+2019-12-31 17:02:38,002|7064-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 17:02:38,236|7064-INFO-GUI initialized
+2019-12-31 17:02:41,454|7064-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 17:02:44,173|7064-INFO-Call for Controlwindow
+2019-12-31 17:02:45,891|7064-INFO-Call for Controlwindow
+2019-12-31 17:02:47,171|7064-INFO-Call for Adminwindow
+2019-12-31 17:02:49,888|7064-INFO-Call for Adminwindow
+2019-12-31 17:02:51,872|7064-INFO-GUI closed.
+2019-12-31 17:05:30,240|2560-INFO-Logged and loaded.
+2019-12-31 17:05:30,256|2560-INFO-Windows classes properly loaded.
+2019-12-31 17:05:30,256|2560-INFO-Running Admintool for PyDrone V2.1
+2019-12-31 17:05:30,459|2560-INFO-GUI initialized
+2019-12-31 17:05:33,272|2560-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2019-12-31 17:05:34,834|2560-INFO-Call for Controlwindow
+2019-12-31 17:05:41,971|2560-INFO-Call for Adminwindow
+2020-01-01 15:35:30,430|7712-INFO-Logged and loaded.
+2020-01-01 15:35:30,446|7712-INFO-Windows classes properly loaded.
+2020-01-01 15:35:30,446|7712-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:36:31,599|7792-INFO-Logged and loaded.
+2020-01-01 15:36:31,599|7792-INFO-Windows classes properly loaded.
+2020-01-01 15:36:31,599|7792-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:36:43,701|7396-INFO-Logged and loaded.
+2020-01-01 15:36:43,716|7396-INFO-Windows classes properly loaded.
+2020-01-01 15:37:13,250|7396-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:37:37,301|6948-INFO-Logged and loaded.
+2020-01-01 15:37:37,301|6948-INFO-Windows classes properly loaded.
+2020-01-01 15:37:43,381|6948-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:41:26,698|1488-INFO-Logged and loaded.
+2020-01-01 15:41:26,745|1488-INFO-Windows classes properly loaded.
+2020-01-01 15:41:26,745|1488-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:50:49,912|5520-INFO-Logged and loaded.
+2020-01-01 15:50:49,975|5520-INFO-Windows classes properly loaded.
+2020-01-01 15:50:49,975|5520-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:52:46,435|1584-INFO-Logged and loaded.
+2020-01-01 15:52:46,498|1584-INFO-Windows classes properly loaded.
+2020-01-01 15:52:46,498|1584-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:53:16,496|2768-INFO-Logged and loaded.
+2020-01-01 15:53:16,543|2768-INFO-Windows classes properly loaded.
+2020-01-01 15:53:16,543|2768-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:53:16,792|2768-INFO-GUI initialized
+2020-01-01 15:53:36,019|2768-INFO-GUI closed.
+2020-01-01 15:54:18,745|4404-INFO-Logged and loaded.
+2020-01-01 15:54:18,792|4404-INFO-Windows classes properly loaded.
+2020-01-01 15:54:18,792|4404-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:56:24,006|444-INFO-Logged and loaded.
+2020-01-01 15:56:24,052|444-INFO-Windows classes properly loaded.
+2020-01-01 15:56:24,052|444-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 15:56:52,728|5716-INFO-Logged and loaded.
+2020-01-01 15:56:52,791|5716-INFO-Windows classes properly loaded.
+2020-01-01 15:56:52,791|5716-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 17:21:13,894|2084-INFO-Logged and loaded.
+2020-01-01 17:21:13,940|2084-INFO-Windows classes properly loaded.
+2020-01-01 17:21:13,940|2084-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 17:21:14,175|2084-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\__init__.py", line 29, in <module>
+    t1 = threading.Thread(target=thread(run, run.vehicle))
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\__init__.py", line 14, in thread
+    event.wait()
+TypeError: wait() missing 1 required positional argument: 'self'
+2020-01-01 17:21:44,849|2084-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 17:21:45,052|2084-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:/Users/marwi/PycharmProjects/ZPE/ZentraleProzessEinheit/__init__.py", line 29, in <module>
+    t1 = threading.Thread(target=thread(run, run.vehicle))
+  File "C:/Users/marwi/PycharmProjects/ZPE/ZentraleProzessEinheit/__init__.py", line 14, in thread
+    event.wait()
+TypeError: wait() missing 1 required positional argument: 'self'
+2020-01-01 17:23:49,737|6532-INFO-Logged and loaded.
+2020-01-01 17:23:49,769|6532-INFO-Windows classes properly loaded.
+2020-01-01 17:23:49,784|6532-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 17:24:28,949|1804-INFO-Logged and loaded.
+2020-01-01 17:24:28,995|1804-INFO-Windows classes properly loaded.
+2020-01-01 17:24:28,995|1804-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 17:25:22,352|2328-INFO-Logged and loaded.
+2020-01-01 17:25:22,399|2328-INFO-Windows classes properly loaded.
+2020-01-01 17:25:22,399|2328-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 18:59:40,368|8992-INFO-Logged and loaded.
+2020-01-01 18:59:40,446|8992-INFO-Windows classes properly loaded.
+2020-01-01 18:59:40,446|8992-INFO-Running Admintool for PyDrone V2.1
+2020-01-01 18:59:40,696|8992-INFO-GUI initialized
+2020-01-01 18:59:54,226|8992-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 11:17:00,089|8992-INFO-Admintool killed
+2020-01-02 11:17:00,167|8992-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:17:00,391|8992-INFO-GUI initialized
+2020-01-02 11:17:04,981|8992-INFO-Admintool killed
+2020-01-02 11:22:23,945|8044-INFO-Logged and loaded.
+2020-01-02 11:22:24,023|8044-INFO-Windows classes properly loaded.
+2020-01-02 11:22:24,023|8044-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:22:24,289|8044-INFO-GUI initialized
+2020-01-02 11:22:40,696|8044-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 11:25:42,767|7060-INFO-Logged and loaded.
+2020-01-02 11:25:42,845|7060-INFO-Windows classes properly loaded.
+2020-01-02 11:25:42,845|7060-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:25:43,111|7060-INFO-GUI initialized
+2020-01-02 11:25:55,747|7060-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 11:26:16,688|7060-INFO-Admintool killed
+2020-01-02 11:26:16,781|7060-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:26:17,047|7060-INFO-GUI initialized
+2020-01-02 11:26:20,180|7060-INFO-Admintool killed
+2020-01-02 11:28:50,390|2920-INFO-Logged and loaded.
+2020-01-02 11:28:50,468|2920-INFO-Windows classes properly loaded.
+2020-01-02 11:28:50,468|2920-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:28:50,843|2920-INFO-GUI initialized
+2020-01-02 11:28:54,701|2920-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 11:28:56,498|2920-INFO-Call for Controlwindow
+2020-01-02 11:29:02,480|2920-INFO-Admintool killed
+2020-01-02 11:29:02,511|2920-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:29:02,902|2920-INFO-GUI initialized
+2020-01-02 11:29:05,010|2920-INFO-Admintool killed
+2020-01-02 11:29:59,875|3376-INFO-Logged and loaded.
+2020-01-02 11:29:59,953|3376-INFO-Windows classes properly loaded.
+2020-01-02 11:29:59,953|3376-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:30:00,265|3376-INFO-GUI initialized
+2020-01-02 11:30:06,220|3376-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 11:30:07,712|3376-INFO-Call for Controlwindow
+2020-01-02 11:30:21,273|3376-INFO-Admintool killed
+2020-01-02 11:30:21,335|3376-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:30:21,741|3376-INFO-GUI initialized
+2020-01-02 11:31:50,314|3068-INFO-Logged and loaded.
+2020-01-02 11:31:50,423|3068-INFO-Windows classes properly loaded.
+2020-01-02 11:31:50,423|3068-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:31:50,845|3068-INFO-GUI initialized
+2020-01-02 11:31:52,876|3068-INFO-Admintool killed
+2020-01-02 11:31:52,923|3068-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:31:53,204|3068-INFO-GUI initialized
+2020-01-02 11:31:56,031|3068-INFO-Admintool killed
+2020-01-02 11:32:55,052|8636-INFO-Logged and loaded.
+2020-01-02 11:32:55,099|8636-INFO-Windows classes properly loaded.
+2020-01-02 11:32:55,099|8636-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:32:55,349|8636-INFO-GUI initialized
+2020-01-02 11:33:28,252|2108-INFO-Logged and loaded.
+2020-01-02 11:33:28,314|2108-INFO-Windows classes properly loaded.
+2020-01-02 11:33:28,314|2108-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:33:28,674|2108-INFO-GUI initialized
+2020-01-02 11:33:47,680|7944-INFO-Logged and loaded.
+2020-01-02 11:33:47,742|7944-INFO-Windows classes properly loaded.
+2020-01-02 11:33:47,742|7944-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:33:48,102|7944-INFO-GUI initialized
+2020-01-02 11:34:04,943|5360-INFO-Logged and loaded.
+2020-01-02 11:34:04,990|5360-INFO-Windows classes properly loaded.
+2020-01-02 11:34:04,990|5360-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:34:05,349|5360-INFO-GUI initialized
+2020-01-02 11:34:27,225|2152-INFO-Logged and loaded.
+2020-01-02 11:34:27,272|2152-INFO-Windows classes properly loaded.
+2020-01-02 11:34:27,272|2152-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:34:27,522|2152-INFO-GUI initialized
+2020-01-02 11:34:29,610|2152-INFO-Admintool killed
+2020-01-02 11:34:37,431|7312-INFO-Logged and loaded.
+2020-01-02 11:34:37,525|7312-INFO-Windows classes properly loaded.
+2020-01-02 11:34:37,525|7312-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:34:37,822|7312-INFO-GUI initialized
+2020-01-02 11:34:39,475|7312-INFO-Admintool killed
+2020-01-02 11:34:39,506|7312-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:34:39,834|7312-INFO-GUI initialized
+2020-01-02 11:34:41,615|7312-INFO-Admintool killed
+2020-01-02 11:34:50,342|8160-INFO-Logged and loaded.
+2020-01-02 11:34:50,388|8160-INFO-Windows classes properly loaded.
+2020-01-02 11:34:50,388|8160-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:34:50,670|8160-INFO-GUI initialized
+2020-01-02 11:34:52,898|8160-INFO-Admintool killed
+2020-01-02 11:36:31,958|912-INFO-Logged and loaded.
+2020-01-02 11:36:32,020|912-INFO-Windows classes properly loaded.
+2020-01-02 11:36:32,020|912-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:36:32,301|912-INFO-GUI initialized
+2020-01-02 11:36:34,573|912-INFO-Admintool killed
+2020-01-02 11:36:34,620|912-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:36:35,042|912-INFO-GUI initialized
+2020-01-02 11:36:37,685|912-INFO-Admintool killed
+2020-01-02 11:37:07,520|7720-INFO-Logged and loaded.
+2020-01-02 11:37:07,583|7720-INFO-Windows classes properly loaded.
+2020-01-02 11:37:07,583|7720-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:37:07,895|7720-INFO-GUI initialized
+2020-01-02 11:38:47,511|2892-INFO-Logged and loaded.
+2020-01-02 11:38:47,574|2892-INFO-Windows classes properly loaded.
+2020-01-02 11:38:47,574|2892-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:38:47,824|2892-INFO-GUI initialized
+2020-01-02 11:38:56,376|2892-INFO-Admintool killed
+2020-01-02 11:39:03,477|2892-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:39:03,727|2892-INFO-GUI initialized
+2020-01-02 11:39:37,152|5664-INFO-Logged and loaded.
+2020-01-02 11:39:37,245|5664-INFO-Windows classes properly loaded.
+2020-01-02 11:39:37,245|5664-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:39:37,636|5664-INFO-GUI initialized
+2020-01-02 11:39:39,776|5664-INFO-Admintool killed
+2020-01-02 11:39:39,869|5664-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:39:40,197|5664-INFO-GUI initialized
+2020-01-02 11:39:42,853|5664-INFO-Admintool killed
+2020-01-02 11:41:05,061|5808-INFO-Logged and loaded.
+2020-01-02 11:41:05,124|5808-INFO-Windows classes properly loaded.
+2020-01-02 11:41:05,124|5808-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:41:05,468|5808-INFO-GUI initialized
+2020-01-02 11:41:07,420|5808-INFO-Admintool killed
+2020-01-02 11:41:07,420|5808-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:41:07,779|5808-INFO-GUI initialized
+2020-01-02 11:41:08,966|5808-INFO-Admintool killed
+2020-01-02 11:41:39,807|2568-INFO-Logged and loaded.
+2020-01-02 11:41:39,870|2568-INFO-Windows classes properly loaded.
+2020-01-02 11:41:39,870|2568-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:41:40,198|2568-INFO-GUI initialized
+2020-01-02 11:41:40,198|2568-INFO-Admintool killed
+2020-01-02 11:41:40,214|2568-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:41:40,698|2568-INFO-GUI initialized
+2020-01-02 11:41:40,698|2568-INFO-Admintool killed
+2020-01-02 11:42:06,339|5912-INFO-Logged and loaded.
+2020-01-02 11:42:06,402|5912-INFO-Windows classes properly loaded.
+2020-01-02 11:42:06,402|5912-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:42:06,777|5912-INFO-GUI initialized
+2020-01-02 11:42:09,432|5912-INFO-Admintool killed
+2020-01-02 11:42:09,479|5912-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 11:42:09,791|5912-INFO-GUI initialized
+2020-01-02 11:42:11,587|5912-INFO-Admintool killed
+2020-01-02 15:03:48,133|5240-INFO-Logged and loaded.
+2020-01-02 15:03:48,554|5240-INFO-Windows classes properly loaded.
+2020-01-02 15:03:48,554|5240-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:03:49,726|5240-INFO-GUI initialized
+2020-01-02 15:08:58,788|4584-INFO-Logged and loaded.
+2020-01-02 15:08:58,866|4584-INFO-Windows classes properly loaded.
+2020-01-02 15:08:58,866|4584-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:08:59,179|4584-INFO-GUI initialized
+2020-01-02 15:09:00,725|4584-WARNING-File user searched for was not found.
+Traceback (most recent call last):
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\Windows.py", line 114, in __onReturn
+    self.vehicle = Vehicle.Vehicle(output)
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\Vehicle.py", line 13, in __init__
+    self.tree = xmlparser.parse(loadurl)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementTree.py", line 1202, in parse
+    tree.parse(source, parser)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementTree.py", line 584, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: ''
+2020-01-02 15:09:25,965|4852-INFO-Logged and loaded.
+2020-01-02 15:09:26,074|4852-INFO-Windows classes properly loaded.
+2020-01-02 15:09:26,074|4852-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:09:26,386|4852-INFO-GUI initialized
+2020-01-02 15:09:28,386|4852-WARNING-File user searched for was not found.
+2020-01-02 15:09:39,414|4852-WARNING-File user searched for was not found.
+2020-01-02 15:10:00,359|4852-INFO-Admintool killed
+2020-01-02 15:10:00,406|4852-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:10:00,656|4852-INFO-GUI initialized
+2020-01-02 15:10:03,952|4852-INFO-Admintool killed
+2020-01-02 15:10:33,054|5532-INFO-Logged and loaded.
+2020-01-02 15:10:33,116|5532-INFO-Windows classes properly loaded.
+2020-01-02 15:10:33,116|5532-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:10:33,335|5532-INFO-GUI initialized
+2020-01-02 15:10:35,209|5532-WARNING-File '' user searched for was not found.
+2020-01-02 15:10:46,122|5532-INFO-Admintool killed
+2020-01-02 15:10:46,184|5532-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:10:46,497|5532-INFO-GUI initialized
+2020-01-02 15:10:48,418|5532-INFO-Admintool killed
+2020-01-02 15:11:22,853|5336-INFO-Logged and loaded.
+2020-01-02 15:11:22,915|5336-INFO-Windows classes properly loaded.
+2020-01-02 15:11:22,915|5336-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:11:23,243|5336-INFO-GUI initialized
+2020-01-02 15:11:25,368|5336-WARNING-File '' user searched for was not found.
+2020-01-02 15:11:35,707|5336-INFO-Admintool killed
+2020-01-02 15:11:35,817|5336-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:11:36,192|5336-INFO-GUI initialized
+2020-01-02 15:11:38,160|5336-INFO-Admintool killed
+2020-01-02 15:16:52,881|8084-INFO-Logged and loaded.
+2020-01-02 15:16:52,928|8084-INFO-Windows classes properly loaded.
+2020-01-02 15:16:52,928|8084-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:16:53,178|8084-INFO-GUI initialized
+2020-01-02 15:17:06,614|8084-WARNING-File 'fghjk' user searched for was not found.
+2020-01-02 15:17:42,993|8084-WARNING-File 'www.jkll.com' user searched for was not found.
+2020-01-02 15:19:39,593|8084-INFO-Admintool killed
+2020-01-02 15:19:39,609|8084-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:19:40,639|8084-INFO-GUI initialized
+2020-01-02 15:19:42,998|8084-INFO-Admintool killed
+2020-01-02 15:23:30,530|3696-INFO-Logged and loaded.
+2020-01-02 15:23:30,702|3696-INFO-Windows classes properly loaded.
+2020-01-02 15:23:30,702|3696-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:23:30,967|3696-INFO-User killed window.
+2020-01-02 15:24:04,486|7308-INFO-Logged and loaded.
+2020-01-02 15:24:04,876|7308-INFO-Windows classes properly loaded.
+2020-01-02 15:24:04,876|7308-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:24:05,079|7308-INFO-GUI initialized
+2020-01-02 15:24:09,240|7308-INFO-User killed window.
+2020-01-02 15:24:09,287|7308-INFO-Admintool killed
+2020-01-02 15:24:09,318|7308-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:24:09,584|7308-INFO-GUI initialized
+2020-01-02 15:24:16,750|7308-INFO-User killed window.
+2020-01-02 15:24:16,812|7308-INFO-Admintool killed
+2020-01-02 15:27:40,498|4856-INFO-Logged and loaded.
+2020-01-02 15:27:40,701|4856-INFO-Windows classes properly loaded.
+2020-01-02 15:27:40,701|4856-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:27:41,279|4856-INFO-GUI initialized
+2020-01-02 15:27:43,008|4856-INFO-User killed window.
+2020-01-02 15:27:43,055|4856-INFO-Admintool killed
+2020-01-02 15:27:43,211|4856-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:27:43,445|4856-INFO-GUI initialized
+2020-01-02 15:27:46,900|4856-INFO-User killed window.
+2020-01-02 15:27:46,947|4856-INFO-Admintool killed
+2020-01-02 15:32:57,493|5512-INFO-Logged and loaded.
+2020-01-02 15:32:57,556|5512-INFO-Windows classes properly loaded.
+2020-01-02 15:32:57,556|5512-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:32:57,790|5512-INFO-GUI initialized
+2020-01-02 15:33:04,378|5512-INFO-Admintool killed
+2020-01-02 15:33:04,409|5512-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:33:04,675|5512-INFO-GUI initialized
+2020-01-02 15:33:07,752|5512-INFO-Admintool killed
+2020-01-02 15:35:30,584|3592-INFO-Logged and loaded.
+2020-01-02 15:35:30,647|3592-INFO-Windows classes properly loaded.
+2020-01-02 15:35:30,647|3592-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:35:30,866|3592-INFO-GUI initialized
+2020-01-02 15:35:34,609|3592-WARNING-File 'h' user searched for was not found.
+2020-01-02 15:35:59,008|3592-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 15:36:29,456|3592-INFO-User killed window.
+2020-01-02 15:36:29,503|3592-INFO-Admintool killed
+2020-01-02 15:36:29,519|3592-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:36:29,815|3592-INFO-GUI initialized
+2020-01-02 15:36:31,659|3592-INFO-User killed window.
+2020-01-02 15:36:31,690|3592-INFO-Admintool killed
+2020-01-02 15:36:59,663|5416-INFO-Logged and loaded.
+2020-01-02 15:36:59,741|5416-INFO-Windows classes properly loaded.
+2020-01-02 15:36:59,741|5416-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:36:59,975|5416-INFO-GUI initialized
+2020-01-02 15:37:03,272|5416-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 15:37:14,855|5416-INFO-User killed window.
+2020-01-02 15:37:14,902|5416-INFO-Admintool killed
+2020-01-02 15:37:14,965|5416-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:37:15,715|5416-INFO-GUI initialized
+2020-01-02 15:37:17,893|5416-INFO-User killed window.
+2020-01-02 15:37:17,956|5416-INFO-Admintool killed
+2020-01-02 15:38:06,746|744-INFO-Logged and loaded.
+2020-01-02 15:38:06,996|744-INFO-Windows classes properly loaded.
+2020-01-02 15:38:06,996|744-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:38:07,246|744-INFO-GUI initialized
+2020-01-02 15:38:10,463|744-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 15:38:11,758|744-INFO-Call for Controlwindow
+2020-01-02 15:38:15,335|744-INFO-User killed window.
+2020-01-02 15:38:15,413|744-INFO-Admintool killed
+2020-01-02 15:38:15,454|744-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:38:15,798|744-INFO-GUI initialized
+2020-01-02 15:38:18,407|744-INFO-User killed window.
+2020-01-02 15:38:18,469|744-INFO-Admintool killed
+2020-01-02 15:49:52,049|3768-INFO-Logged and loaded.
+2020-01-02 15:49:52,096|3768-INFO-Windows classes properly loaded.
+2020-01-02 15:49:52,315|3768-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:49:52,518|3768-INFO-GUI initialized
+2020-01-02 15:50:28,543|6172-INFO-Logged and loaded.
+2020-01-02 15:50:28,621|6172-INFO-Windows classes properly loaded.
+2020-01-02 15:50:28,684|6172-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:50:28,918|6172-INFO-GUI initialized
+2020-01-02 15:50:31,667|6172-INFO-User killed window.
+2020-01-02 15:50:31,948|6172-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:50:32,198|6172-INFO-GUI initialized
+2020-01-02 15:50:32,542|5404-INFO-Logged and loaded.
+2020-01-02 15:50:32,589|5404-INFO-Windows classes properly loaded.
+2020-01-02 15:50:32,589|5404-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:50:32,932|5404-INFO-GUI initialized
+2020-01-02 15:50:35,182|6172-INFO-User killed window.
+2020-01-02 15:50:36,900|5404-INFO-User killed window.
+2020-01-02 15:50:37,041|5404-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:50:37,337|5404-INFO-GUI initialized
+2020-01-02 15:50:39,353|5404-INFO-User killed window.
+2020-01-02 15:51:09,259|4464-INFO-Logged and loaded.
+2020-01-02 15:51:09,306|4464-INFO-Windows classes properly loaded.
+2020-01-02 15:51:09,353|4464-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:51:09,571|4464-INFO-GUI initialized
+2020-01-02 15:51:11,790|4464-INFO-User killed window.
+2020-01-02 15:51:11,977|4464-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:51:12,258|4464-INFO-GUI initialized
+2020-01-02 15:51:12,477|540-INFO-Logged and loaded.
+2020-01-02 15:51:12,524|540-INFO-Windows classes properly loaded.
+2020-01-02 15:51:12,524|540-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:51:12,727|540-INFO-GUI initialized
+2020-01-02 15:51:42,281|540-INFO-User killed window.
+2020-01-02 15:51:42,390|540-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:51:42,765|540-INFO-GUI initialized
+2020-01-02 15:51:44,515|540-INFO-User killed window.
+2020-01-02 15:52:28,056|4464-INFO-User killed window.
+2020-01-02 15:52:38,444|7428-INFO-Logged and loaded.
+2020-01-02 15:52:38,491|7428-INFO-Windows classes properly loaded.
+2020-01-02 15:52:38,553|7428-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:52:38,881|7428-INFO-GUI initialized
+2020-01-02 15:53:07,763|7428-INFO-User killed window.
+2020-01-02 15:53:07,872|7428-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:53:08,169|7428-INFO-GUI initialized
+2020-01-02 15:53:08,403|2472-INFO-Logged and loaded.
+2020-01-02 15:53:08,450|2472-INFO-Windows classes properly loaded.
+2020-01-02 15:53:08,450|2472-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:53:08,638|2472-INFO-GUI initialized
+2020-01-02 15:53:13,783|2472-INFO-User killed window.
+2020-01-02 15:53:13,861|2472-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:53:14,095|2472-INFO-GUI initialized
+2020-01-02 15:53:16,329|2472-INFO-User killed window.
+2020-01-02 15:53:24,788|7428-INFO-User killed window.
+2020-01-02 15:54:35,020|5736-INFO-Logged and loaded.
+2020-01-02 15:54:35,067|5736-INFO-Windows classes properly loaded.
+2020-01-02 15:54:35,129|5736-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:54:35,379|5736-INFO-GUI initialized
+2020-01-02 15:54:38,503|5736-INFO-User killed window.
+2020-01-02 15:54:38,597|5736-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:54:38,816|5736-INFO-GUI initialized
+2020-01-02 15:54:40,987|5736-INFO-User killed window.
+2020-01-02 15:55:34,379|2224-INFO-Logged and loaded.
+2020-01-02 15:55:34,426|2224-INFO-Windows classes properly loaded.
+2020-01-02 15:55:34,472|2224-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:55:34,691|2224-INFO-GUI initialized
+2020-01-02 15:55:37,378|2224-INFO-User killed window.
+2020-01-02 15:55:37,471|2224-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:55:37,706|2224-INFO-GUI initialized
+2020-01-02 15:55:41,084|2224-INFO-User killed window.
+2020-01-02 15:56:00,401|320-INFO-Logged and loaded.
+2020-01-02 15:56:00,432|320-INFO-Windows classes properly loaded.
+2020-01-02 15:56:00,479|320-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:56:00,698|320-INFO-GUI initialized
+2020-01-02 15:56:03,103|320-INFO-User killed window.
+2020-01-02 15:56:03,169|320-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:56:03,419|320-INFO-GUI initialized
+2020-01-02 15:56:05,387|320-INFO-User killed window.
+2020-01-02 15:57:12,630|4960-INFO-Logged and loaded.
+2020-01-02 15:57:12,661|4960-INFO-Windows classes properly loaded.
+2020-01-02 15:57:12,708|4960-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:57:12,942|4960-INFO-GUI initialized
+2020-01-02 15:57:15,159|4960-INFO-User killed window.
+2020-01-02 15:57:15,221|4960-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 15:57:15,471|4960-INFO-GUI initialized
+2020-01-02 15:57:17,564|4960-INFO-User killed window.
+2020-01-02 16:02:06,338|1880-INFO-Logged and loaded.
+2020-01-02 16:02:06,385|1880-INFO-Windows classes properly loaded.
+2020-01-02 16:02:06,431|1880-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:02:06,666|1880-INFO-GUI initialized
+2020-01-02 16:02:08,712|1880-INFO-User killed window.
+2020-01-02 16:02:08,790|1880-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:02:09,071|1880-INFO-GUI initialized
+2020-01-02 16:02:12,305|1880-INFO-User killed window.
+2020-01-02 16:26:29,774|3772-INFO-Logged and loaded.
+2020-01-02 16:26:29,821|3772-INFO-Windows classes properly loaded.
+2020-01-02 16:26:29,868|3772-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:26:30,087|3772-INFO-GUI initialized
+2020-01-02 16:26:30,134|3772-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\__init__.py", line 13, in <module>
+    mp.Process(target=run.root.mainloop).start()
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle '_tkinter.tkapp' object
+2020-01-02 16:26:30,759|2960-INFO-Logged and loaded.
+2020-01-02 16:26:30,821|2960-INFO-Windows classes properly loaded.
+2020-01-02 16:26:30,821|2960-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:26:31,087|2960-INFO-GUI initialized
+2020-01-02 16:27:16,915|3772-INFO-User killed window.
+2020-01-02 16:27:16,993|3772-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:27:17,321|3772-INFO-GUI initialized
+2020-01-02 16:27:17,337|3772-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:/Users/marwi/PycharmProjects/ZPE/ZentraleProzessEinheit/__init__.py", line 13, in <module>
+    mp.Process(target=run.root.mainloop).start()
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle '_tkinter.tkapp' object
+2020-01-02 16:27:17,881|856-INFO-Logged and loaded.
+2020-01-02 16:27:17,928|856-INFO-Windows classes properly loaded.
+2020-01-02 16:27:17,928|856-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:27:18,147|856-INFO-GUI initialized
+2020-01-02 16:27:22,785|3772-INFO-User killed window.
+2020-01-02 16:29:42,556|5748-INFO-Logged and loaded.
+2020-01-02 16:29:42,603|5748-INFO-Windows classes properly loaded.
+2020-01-02 16:29:42,634|5748-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:29:42,869|5748-INFO-GUI initialized
+2020-01-02 16:29:42,916|5748-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\__init__.py", line 18, in <module>
+    mp.Process(target=process, args=[run]).start()
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle '_tkinter.tkapp' object
+2020-01-02 16:29:43,509|2576-INFO-Logged and loaded.
+2020-01-02 16:29:43,556|2576-INFO-Windows classes properly loaded.
+2020-01-02 16:29:43,556|2576-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:29:43,806|2576-INFO-GUI initialized
+2020-01-02 16:29:51,160|5748-INFO-User killed window.
+2020-01-02 16:29:51,222|5748-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:29:51,488|5748-INFO-GUI initialized
+2020-01-02 16:29:51,503|5748-DEBUG-TypeError occured in main
+Traceback (most recent call last):
+  File "C:/Users/marwi/PycharmProjects/ZPE/ZentraleProzessEinheit/__init__.py", line 18, in <module>
+    mp.Process(target=process, args=[run]).start()
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle '_tkinter.tkapp' object
+2020-01-02 16:29:52,097|5452-INFO-Logged and loaded.
+2020-01-02 16:29:52,144|5452-INFO-Windows classes properly loaded.
+2020-01-02 16:29:52,144|5452-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 16:29:52,347|5452-INFO-GUI initialized
+2020-01-02 16:29:54,862|5748-INFO-User killed window.
+2020-01-02 21:40:44,779|3024-INFO-Logged and loaded.
+2020-01-02 21:40:45,013|3024-INFO-Windows classes properly loaded.
+2020-01-02 21:40:45,013|3024-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:40:46,591|3024-INFO-GUI initialized
+2020-01-02 21:40:49,590|3024-INFO-User killed window.
+2020-01-02 21:40:49,668|3024-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:40:50,230|3024-INFO-GUI initialized
+2020-01-02 21:41:00,414|3024-INFO-User killed window.
+2020-01-02 21:43:08,616|8228-INFO-Logged and loaded.
+2020-01-02 21:43:08,663|8228-INFO-Windows classes properly loaded.
+2020-01-02 21:43:08,663|8228-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:43:10,803|8228-INFO-GUI initialized
+2020-01-02 21:43:12,537|8228-INFO-User killed window.
+2020-01-02 21:43:12,584|8228-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:43:12,943|8228-INFO-GUI initialized
+2020-01-02 21:43:15,302|8228-INFO-User killed window.
+2020-01-02 21:43:26,695|1636-INFO-Logged and loaded.
+2020-01-02 21:43:26,820|1636-INFO-Windows classes properly loaded.
+2020-01-02 21:43:26,820|1636-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:43:28,319|1636-INFO-GUI initialized
+2020-01-02 21:43:28,319|1636-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:43:28,725|1636-INFO-GUI initialized
+2020-01-02 21:45:03,176|3524-INFO-Logged and loaded.
+2020-01-02 21:45:03,270|3524-INFO-Windows classes properly loaded.
+2020-01-02 21:45:03,270|3524-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:45:03,535|3524-INFO-GUI initialized
+2020-01-02 21:45:07,112|3524-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 21:45:08,393|3524-INFO-Call for Controlwindow
+2020-01-02 21:45:44,304|3524-INFO-User killed window.
+2020-01-02 21:45:44,366|3524-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:45:45,412|3524-INFO-GUI initialized
+2020-01-02 21:45:46,974|3524-INFO-User killed window.
+2020-01-02 21:46:41,785|2284-INFO-Logged and loaded.
+2020-01-02 21:46:42,098|2284-INFO-Windows classes properly loaded.
+2020-01-02 21:46:42,098|2284-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:46:42,426|2284-INFO-GUI initialized
+2020-01-02 21:46:45,831|2284-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 21:46:46,487|2284-INFO-Call for Adminwindow
+2020-01-02 21:49:42,089|5844-INFO-Logged and loaded.
+2020-01-02 21:49:42,448|5844-INFO-Windows classes properly loaded.
+2020-01-02 21:49:42,448|5844-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:49:42,995|5844-INFO-GUI initialized
+2020-01-02 21:49:51,932|5844-INFO-Loaded Vehicle Pitank Mark I | Status Ready library/xml/PiTank.xml
+2020-01-02 21:49:53,572|5844-INFO-Call for Adminwindow
+2020-01-02 21:50:41,155|5844-INFO-Pitank Mark I was set on deactivated.
+2020-01-02 21:50:44,483|5844-INFO-Pitank Mark I Changes are now saved
+2020-01-02 21:50:49,215|5844-INFO-Call for Adminwindow
+2020-01-02 21:53:59,592|5844-INFO-Pitank Mark I Changes are now saved
+2020-01-02 21:54:10,791|5844-INFO-User killed window.
+2020-01-02 21:54:10,854|5844-INFO-Running Admintool for PyDrone V2.1
+2020-01-02 21:54:11,166|5844-INFO-GUI initialized
+2020-01-02 21:54:13,087|5844-INFO-User killed window.

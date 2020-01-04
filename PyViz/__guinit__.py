@@ -1,5 +1,5 @@
-from Tkinter import *
-from library import reference
+from tkinter import *
+from PyViz.library import reference
 from Library.PyClass.piviz import *
 
 

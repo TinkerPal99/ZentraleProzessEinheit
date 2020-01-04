@@ -1,7 +1,7 @@
 import csv
 
 # webpages
-_Guardian = "https://www.theguardian.com/world/rss"
+Guardian = "https://www.theguardian.com/world/rss"
 
 
 # --------------------CSVHandlle----------------------------
@@ -71,7 +71,7 @@ def handleIndex():
             indexposition = int(indexposition)
             break
         except ValueError:
-            print "Please enter only a indexposition that is valued. E.g. 5"
+            print ("Please enter only a indexposition that is valued. E.g. 5")
     return indexposition
 
 

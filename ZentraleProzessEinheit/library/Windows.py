@@ -51,7 +51,7 @@ class MainWin:
                                      width=47,
                                      # height=20,
                                      borderwidth=5,
-                                     # relief="groove",
+                                     relief="sunken",
                                      text="Test",
                                      font="Times, 15")
 
@@ -116,11 +116,12 @@ class MainWin:
             self.Vehicle_name.set(self.vehicle.getattribute("Name"))
 
             logg.logging.info(
-                "Loaded Vehicle " + self.vehicle.getattribute("Name") + " | Status " + self.vehicle.getattribute("Status")
+                "Loaded Vehicle " + self.vehicle.getattribute("Name") + " | Status " + self.vehicle.getattribute(
+                    "Status")
                 + " " + output)
             self.appout.set("Choose " + self.vehicle.getattribute("Name") + " from " + str(self.__input_Vehicle.get()))
         except FileNotFoundError:
-            logg.logging.warning("File '" + self.__input_Vehicle.get() +"' user searched for was not found.")
+            logg.logging.warning("File '" + self.__input_Vehicle.get() + "' user searched for was not found.")
             self.appout.set("File not found.")
         else:
             if self.vehicle.getattribute("Status") == "Ready":
@@ -250,7 +251,47 @@ class AdminWin:
                                     height=2,
                                     borderwidth=5,
                                     relief="groove")
+        # --------------------------------Pin-----------------------------------------
+        self.__WheelFWLabel = Label(self.Adminframe,
+                                    text="FW-Pin",
+                                    width=10,
+                                    height=2,
+                                    borderwidth=5,
+                                    relief="groove")
 
+        self.__WheelFWOutput = Button(self.Adminframe,
+                                      text=self.vehicleattributes.get("FW"),
+                                      width=10,
+                                      height=2,
+                                      borderwidth=5,
+                                      relief="raised",
+                                      command=self.__changeFW)
+
+        self.__NewWheelFW = Entry(self.Adminframe,
+                                  width=10,
+                                  borderwidth=5,
+                                  relief="sunken")
+
+        self.__WheelBWLabel = Label(self.Adminframe,
+                                    text="BW-pin",
+                                    width=10,
+                                    height=2,
+                                    borderwidth=5,
+                                    relief="groove")
+
+        self.__WheelBWOutput = Button(self.Adminframe,
+                                      text=self.vehicleattributes.get("BW"),
+                                      width=10,
+                                      height=2,
+                                      borderwidth=5,
+                                      relief="raised",
+                                      command=self.__changeBW)
+
+        self.__NewWheelBW = Entry(self.Adminframe,
+                                  width=10,
+                                  borderwidth=5,
+                                  relief="sunken")
+        # -----------------------------------------------------------------------------------
         self.__URLLabel = Label(self.Adminframe,
                                 text="URL ",
                                 width=15,
@@ -317,6 +358,14 @@ class AdminWin:
                                     height=2,
                                     command=self.__savechanges)
 
+    def __changeFW(self):
+        self.__WheelFWOutput.grid_remove()
+        self.__NewWheelFW.grid(row=3, column=3)
+
+    def __changeBW(self):
+        self.__WheelBWOutput.grid_remove()
+        self.__NewWheelBW.grid(row=4, column=3)
+
     def __Send(self):
         try:
             if self.__Passentry.get() == self.vehicle.getattribute("Passcode"):
@@ -336,6 +385,11 @@ class AdminWin:
         logg.logging.info(self.vehicleattributes["Name"] + " was set on deactivated.")
 
     def __savechanges(self):
+        if self.__NewWheelFW.get() != "":
+            self.vehicleattributes["FW"] = self.__NewWheelFW.get()
+        if self.__NewWheelBW.get() != "":
+            self.vehicleattributes["BW"] = self.__NewWheelBW.get()
+
         self.vehicle.attributes.update(self.vehicleattributes)
         logg.logging.info(self.vehicleattributes["Name"] + " Changes are now saved")
         self.vehicle.save_changes()
@@ -380,6 +434,10 @@ class AdminWin:
             self.__GreyBar.grid(row=2, column=0, columnspan=4)
             self.__StatusChangeLabel.grid(row=3, column=0, rowspan=2)
             self.__SaveChanges.grid(row=5, column=3)
+            self.__WheelFWLabel.grid(row=3, column=2)
+            self.__WheelFWOutput.grid(row=3, column=3)
+            self.__WheelBWLabel.grid(row=4, column=2)
+            self.__WheelBWOutput.grid(row=4, column=3)
 
         except ValueError:
             self.Adminframe.destroy()

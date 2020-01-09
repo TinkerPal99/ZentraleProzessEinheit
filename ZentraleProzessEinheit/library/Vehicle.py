@@ -51,9 +51,39 @@ class Vehicle:
             print("You are not allowed to ask for this attribute.")
             SystemExit(1)
 
-    def __get__(self):
-        for attribute in self.attributes:
-            print(attribute + " : " + self.attributes.get(attribute))
+    def __copy__(self, path):
+        # überladene copymethode, erstellt eine kopie in die übergebene xml (xml nach Vorlage), gibt werte der copy aus
+
+        # "library/xml/Vorlage.xml"
+        tree = xmlparser.parse(path)
+        root = tree.getroot()
+
+        copy = self
+        copy.attributes["Name"] = self.attributes["Name"] + "-Copy"
+        copy.attributes["Status"] = "Deactivated"
+        copy.attributes["URL"] = "TBD"
+        copy.attributes["Passcode"] = "1234 5678"
+
+        for Name in root.iter("Name"):
+            Name.text = copy.attributes["Name"]  # TODO Get name from webxml (get)
+        for Status in root.iter("Status"):
+            Status.text = copy.attributes["Status"]  # TODO Get Status from webxml (get)
+        for URL in root.iter("JobUrl"):
+            URL.text = copy.attributes["URL"]
+        for License in self.root.iter("JOL"):
+            License.text = copy.attributes["JOL"]
+        for FW in root.iter("FW"):
+            FW.text = copy.attributes["FW"]
+        for BW in root.iter("BW"):
+            BW.text = copy.attributes["BW"]
+
+        tree.write(path)
+        print("Copy was made to " + path)
+        return copy
+
+    def __str__(self):
+        # überladene string methode, definiert welcher wert bei str(self) zurückgegeben wird
+        return str(self.attributes)
 
     def call_for_movement(self, movement):
         print("Vehicle " + str(self.attributes.get("Name")))
@@ -76,12 +106,14 @@ class Vehicle:
 
 def __test_method():
     sim = Vehicle("xml/PiTank.xml")
-    print(sim.attributes["FW"])
-    print(sim.attributes["JOL"])
+    print(str(sim))
+    sua = sim.__copy__("xml/Vorlage.xml")
+    print(str(sua))
 
 
 ########################################
 print("Vehiclemodule loaded properly")
 ########################################
+
 
 

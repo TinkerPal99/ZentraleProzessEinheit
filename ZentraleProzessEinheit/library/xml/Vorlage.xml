@@ -1,0 +1,17 @@
+<root>
+    <Name>Pitank Mark I-Copy</Name>
+    <Status>Deactivated</Status>
+    <JobUrl>TBD</JobUrl>
+    <JOL>False</JOL>
+    <Adminpasscode>1234 5678</Adminpasscode>
+
+    <data>
+        <FW>38</FW>
+        <BW>36</BW>
+    </data>
+
+    <License>
+        <Distance>False</Distance>
+        <Airsense>False</Airsense>
+    </License>
+</root>

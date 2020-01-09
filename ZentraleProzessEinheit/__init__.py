@@ -5,7 +5,7 @@ from ZentraleProzessEinheit.library import Vehicle, logg, Windows
 
 
 try:
-    logg.logging.info("Running Admintool for PyDrone V2.1")
+    logg.logging.info("Running Admintool for PyDrone")
     run = Windows.MainWin()
     if run.build():
         run.root.mainloop()

@@ -18,7 +18,7 @@ class MainWin:
     def __init__(self):
         self.root = Tk()
         self.root.configure(background='darkred')
-        self.__Title = "ZentraleProzessEinheit - Admintool 2.1"
+        self.__Title = "ZentraleProzessEinheit - Admintool 2.3"
 
         self.vehicle = Vehicle.Vehicle
         self.Vehicle_name = StringVar()

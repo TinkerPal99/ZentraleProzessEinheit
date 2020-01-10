@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <root>
-        <Name>PiTrike I</Name>
-        <Status>deactivated</Status>
-        <JobUrl>172.168.8.120/main</JobUrl>
-        <JOL>False</JOL>
-        <Adminpasscode>5483 9543</Adminpasscode>
-    </root>

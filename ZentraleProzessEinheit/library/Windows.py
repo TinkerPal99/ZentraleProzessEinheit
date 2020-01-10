@@ -121,7 +121,7 @@ class MainWin:
                 + " " + output)
             self.appout.set("Choose " + self.vehicle.getattribute("Name") + " from " + str(self.__input_Vehicle.get()))
         except FileNotFoundError:
-            logg.logging.warning("File '" + self.__input_Vehicle.get() + "' user searched for was not found.")
+            logg.logging.warning("File '" + self.__input_Vehicle.get() + "' user searched for was not found.", exc_info=True)
             self.appout.set("File not found.")
         else:
             if self.vehicle.getattribute("Status") == "Ready":

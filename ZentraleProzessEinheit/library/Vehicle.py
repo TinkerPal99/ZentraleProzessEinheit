@@ -1,9 +1,27 @@
+import shutil
+from urllib.request import *
+import requests
 import xml.etree.cElementTree as xmlparser
+from random import randint
+import ZentraleProzessEinheit.library.logg as logg
 
 
 class Vehicle:
-    def __init__(self, loadurl=str):
-        self.save = loadurl
+
+    def __init__(self, url=str):
+        # consructor, zieht daten von weburl wenn angegeben, sonst werden daten von temp gezogen
+        self.url = url
+        self.temp = "xml/temporary.xml"
+
+        if url == "":
+            raise FileNotFoundError
+
+        urlretrieve(url, self.temp)
+
+        self.web = True
+
+        self.tree = xmlparser.parse(self.temp)
+
         self.attributes = {"Name": None,
                            "Status": None,
                            "URL": None,
@@ -12,7 +30,6 @@ class Vehicle:
                            "FW": None,
                            "BW": None}
 
-        self.tree = xmlparser.parse(loadurl)
         self.root = self.tree.getroot()
 
         for Name in self.root.iter("Name"):
@@ -41,7 +58,7 @@ class Vehicle:
             FW.text = self.attributes["FW"]
         for BW in self.root.iter("BW"):
             BW.text = self.attributes["BW"]
-        self.tree.write(self.save)
+        self.tree.write(self.temp)
 
     def getattribute(self, attributename):
         try:
@@ -51,18 +68,20 @@ class Vehicle:
             print("You are not allowed to ask for this attribute.")
             SystemExit(1)
 
-    def __copy__(self, path):
+    def __copy__(self, copypath=str):
         # überladene copymethode, erstellt eine kopie in die übergebene xml (xml nach Vorlage), gibt werte der copy aus
 
         # "library/xml/Vorlage.xml"
-        tree = xmlparser.parse(path)
+        shutil.copy(str(self.save), str(copypath))
+
+        tree = xmlparser.parse(copypath)
         root = tree.getroot()
 
         copy = self
         copy.attributes["Name"] = self.attributes["Name"] + "-Copy"
         copy.attributes["Status"] = "Deactivated"
         copy.attributes["URL"] = "TBD"
-        copy.attributes["Passcode"] = "1234 5678"
+        copy.attributes["Passcode"] = str(randint(0, 9999)) + " " + str(randint(0, 9999))
 
         for Name in root.iter("Name"):
             Name.text = copy.attributes["Name"]  # TODO Get name from webxml (get)
@@ -70,6 +89,8 @@ class Vehicle:
             Status.text = copy.attributes["Status"]  # TODO Get Status from webxml (get)
         for URL in root.iter("JobUrl"):
             URL.text = copy.attributes["URL"]
+        for passcode in root.iter("Adminpasscode"):
+            passcode.text = copy.attributes["Passcode"]
         for License in self.root.iter("JOL"):
             License.text = copy.attributes["JOL"]
         for FW in root.iter("FW"):
@@ -77,8 +98,8 @@ class Vehicle:
         for BW in root.iter("BW"):
             BW.text = copy.attributes["BW"]
 
-        tree.write(path)
-        print("Copy was made to " + path)
+        tree.write(copypath)
+        print("Copy was made to " + copypath + " Ask a administrator to upload your new car.")
         return copy
 
     def __str__(self):
@@ -105,10 +126,9 @@ class Vehicle:
 
 
 def __test_method():
-    sim = Vehicle("xml/PiTank.xml")
+    sim = Vehicle("http://localhost/PiTank.xml", "xml/temporary.xml")
+    sim.save_changes()
     print(str(sim))
-    sua = sim.__copy__("xml/Vorlage.xml")
-    print(str(sua))
 
 
 ########################################

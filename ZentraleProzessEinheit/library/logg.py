@@ -2,7 +2,7 @@ import logging
 import sys
 
 logging.basicConfig(
-    filename="logs\Run.log",
+    filename="..\logs\Run.log",
     filemode="a",
     format="%(asctime)s|%(process)d-%(levelname)s-%(message)s")
 

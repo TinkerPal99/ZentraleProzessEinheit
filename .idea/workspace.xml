@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21733bf0-c5e8-4536-bebe-8290ac01d720" name="Default Changelist" comment="" />
+    <list default="true" id="21733bf0-c5e8-4536-bebe-8290ac01d720" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dispatcher/Sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dispatcher/Sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dispatcher/library/logg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dispatcher/library/logg.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +52,28 @@
       <recent name="C:\Users\marwi\PycharmProjects\ZPE\Library\PyMod" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
+  <component name="RunManager" selected="Python.Sender">
+    <configuration name="Sender" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZPE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dispatcher" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dispatcher/Sender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZPE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,27 +87,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZentraleProzessEinheit/library/Vehicle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Windows" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ZPE" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZentraleProzessEinheit/library" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZentraleProzessEinheit/library/Windows.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sender" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.Vehicle" />
         <item itemvalue="Python.piviz" />
         <item itemvalue="Python.hjk" />
-        <item itemvalue="Python.Windows" />
       </list>
     </recent_temporary>
   </component>
@@ -211,21 +215,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1577884877247" />
-    <state width="1899" height="375" key="GridCell.Tab.0.bottom" timestamp="1578749185699">
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1578772019589">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1578771004810" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578772019589" />
     <state width="1899" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578749185699" />
-    <state width="1899" height="375" key="GridCell.Tab.0.center" timestamp="1578749185699">
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1578772019589">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1578771004810" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578772019589" />
     <state width="1899" height="375" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578749185699" />
-    <state width="1899" height="375" key="GridCell.Tab.0.left" timestamp="1578749185699">
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1578772019589">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1578771004810" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578772019589" />
     <state width="1899" height="375" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578749185699" />
-    <state width="1899" height="375" key="GridCell.Tab.0.right" timestamp="1578749185699">
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1578772019589">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1578771004810" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578772019589" />
     <state width="1899" height="375" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578749185699" />
     <state width="1128" height="366" key="GridCell.Tab.1.bottom" timestamp="1578693247664">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -251,9 +263,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1577638729747" />
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1578768170281">
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1578771053675">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1578771053675" />
     <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578768170281" />
     <state x="1040" y="141" width="607" height="804" key="find.popup" timestamp="1578681876685">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -263,5 +276,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578606735232" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Dispatcher/__init__.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,7 +2,7 @@ import logging
 import sys
 
 logging.basicConfig(
-    filename="logs\Server.log",
+    filename="library\logs\Server.log",
     filemode="a",
     format="%(asctime)s|%(process)d||%(levelname)s|-|%(message)s")
 

@@ -30,21 +30,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ZentraleProzessEinheit/library/xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dispatcher/library" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marwi\PycharmProjects\ZPE\Dispatcher\library" />
+      <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\xml" />
+      <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit" />
+      <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\xml" />
+      <recent name="C:\Users\marwi\PycharmProjects\ZPE\PyViz" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library" />
       <recent name="C:\Users\marwi\PycharmProjects\ZPE\Library" />
       <recent name="C:\Users\marwi\PycharmProjects\ZPE\Library\PyClass" />
       <recent name="C:\Users\marwi\PycharmProjects\ZPE\Library\PyMod" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\xml" />
-      <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit" />
-      <recent name="C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\xml" />
-      <recent name="C:\Users\marwi\PycharmProjects\ZPE\PyViz" />
     </key>
   </component>
   <component name="RunManager" selected="Python.__init__ (1)">
@@ -250,10 +251,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1577638729747" />
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1578746550084">
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1578768170281">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578746550084" />
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578768170281" />
     <state x="1040" y="141" width="607" height="804" key="find.popup" timestamp="1578681876685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

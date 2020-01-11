@@ -2,6 +2,8 @@ import shutil
 from urllib.request import *
 import xml.etree.cElementTree as xmlparser
 from random import randint
+from urllib import request
+import requests
 
 
 class Vehicle:
@@ -9,7 +11,7 @@ class Vehicle:
     def __init__(self, url=str):
         # consructor, zieht daten von weburl wenn angegeben, sonst werden daten von temp gezogen
         self.url = url
-        self.temp = "library/xml/temporary.xml"
+        self.temp = "xml/temporary.xml"  # "library/xml/temporary.xml"
 
         if url == "":
             raise FileNotFoundError
@@ -47,9 +49,9 @@ class Vehicle:
 
     def save_changes(self):
         for Name in self.root.iter("Name"):
-            Name.text = self.attributes["Name"]  # TODO Get name from webxml (get)
+            Name.text = self.attributes["Name"]
         for Status in self.root.iter("Status"):
-            Status.text = self.attributes["Status"]  # TODO Get Status from webxml (get)
+            Status.text = self.attributes["Status"]
         for URL in self.root.iter("JobUrl"):
             URL.text = self.attributes["URL"]
         for FW in self.root.iter("FW"):
@@ -57,6 +59,11 @@ class Vehicle:
         for BW in self.root.iter("BW"):
             BW.text = self.attributes["BW"]
         self.tree.write(self.temp)
+
+        if self.web:
+            uploadfile = {"file": open(self.temp, "rb")}
+            print(requests.put(self.url, uploadfile).reason + "Upload wasn't possible. Feature is momentarily not "
+                                                              "supported.")
 
     def getattribute(self, attributename):
         try:
@@ -124,11 +131,14 @@ class Vehicle:
 
 
 def __test_method():
-    sim = Vehicle("http://localhost/PiTank.xml", "xml/temporary.xml")
+    sim = Vehicle("http://192.168.0.102/Copy.xml")
+    sim.attributes["Name"] = "newName"
+    print(open(sim.temp, "rb"))
     sim.save_changes()
-    print(str(sim))
 
 
 ########################################
 print("Vehiclemodule loaded properly")
 ########################################
+
+

@@ -1,9 +1,7 @@
 import shutil
 from urllib.request import *
-import requests
 import xml.etree.cElementTree as xmlparser
 from random import randint
-import ZentraleProzessEinheit.library.logg as logg
 
 
 class Vehicle:
@@ -11,7 +9,7 @@ class Vehicle:
     def __init__(self, url=str):
         # consructor, zieht daten von weburl wenn angegeben, sonst werden daten von temp gezogen
         self.url = url
-        self.temp = "xml/temporary.xml"
+        self.temp = "library/xml/temporary.xml"
 
         if url == "":
             raise FileNotFoundError
@@ -134,6 +132,3 @@ def __test_method():
 ########################################
 print("Vehiclemodule loaded properly")
 ########################################
-
-
-

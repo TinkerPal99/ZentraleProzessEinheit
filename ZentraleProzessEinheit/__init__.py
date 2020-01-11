@@ -1,7 +1,4 @@
-from ZentraleProzessEinheit.library import Vehicle, logg, Windows
-
-# library/xml/PiTank.xml
-# library/xml/PiCar.xml
+from ZentraleProzessEinheit.library import Windows, logg
 
 
 try:

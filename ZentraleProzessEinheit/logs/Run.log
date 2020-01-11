@@ -793,3 +793,128 @@ TypeError: cannot pickle '_tkinter.tkapp' object
 2020-01-08 18:51:34,819|5900-INFO-Running Admintool for PyDrone V2.1
 2020-01-08 18:51:35,173|5900-INFO-GUI initialized
 2020-01-08 18:51:37,504|5900-INFO-User killed window.
+2020-01-10 22:52:32,405|4596-INFO-Logged and loaded.
+2020-01-10 22:52:32,468|4596-INFO-Windows classes properly loaded.
+2020-01-10 22:52:32,468|4596-INFO-Running Admintool for PyDrone
+2020-01-10 22:52:32,717|4596-INFO-GUI initialized
+2020-01-10 22:56:01,984|8772-INFO-Logged and loaded.
+2020-01-10 22:56:02,031|8772-INFO-Windows classes properly loaded.
+2020-01-10 22:56:02,031|8772-INFO-Running Admintool for PyDrone
+2020-01-10 22:56:02,281|8772-INFO-GUI initialized
+2020-01-10 22:56:04,608|8772-INFO-User killed window.
+2020-01-10 22:56:04,686|8772-INFO-Running Admintool for PyDrone
+2020-01-10 22:56:04,952|8772-INFO-GUI initialized
+2020-01-10 22:56:07,795|8772-INFO-User killed window.
+2020-01-10 22:56:14,401|4060-INFO-Logged and loaded.
+2020-01-10 22:56:14,448|4060-INFO-Windows classes properly loaded.
+2020-01-10 22:56:14,448|4060-INFO-Running Admintool for PyDrone
+2020-01-10 22:56:14,713|4060-INFO-GUI initialized
+2020-01-10 22:56:52,899|4060-WARNING-File 'http://localhost/PiCar.xml' user searched for was not found.
+Traceback (most recent call last):
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\Windows.py", line 114, in __onReturn
+    self.vehicle = Vehicle.Vehicle(output)
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\Vehicle.py", line 17, in __init__
+    urlretrieve(url, self.temp)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\urllib\request.py", line 257, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'xml/temporary.xml'
+2020-01-10 22:57:15,094|8512-INFO-Logged and loaded.
+2020-01-10 22:57:15,656|8512-INFO-Windows classes properly loaded.
+2020-01-10 22:57:15,656|8512-INFO-Running Admintool for PyDrone
+2020-01-10 22:57:17,307|8512-INFO-GUI initialized
+2020-01-10 22:57:21,618|8512-INFO-Loaded Vehicle Pitank Mark I | Status Ready http://localhost/PiTank.xml
+2020-01-10 22:57:33,532|8512-INFO-Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-10 22:59:04,994|8624-INFO-Logged and loaded.
+2020-01-10 22:59:05,056|8624-INFO-Windows classes properly loaded.
+2020-01-10 22:59:05,056|8624-INFO-Running Admintool for PyDrone
+2020-01-10 22:59:05,353|8624-INFO-GUI initialized
+2020-01-10 22:59:08,711|8624-INFO-Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-10 22:59:10,289|8624-INFO-Call for Adminwindow
+2020-01-10 22:59:21,514|8624-INFO-User killed window.
+2020-01-10 22:59:21,592|8624-INFO-Running Admintool for PyDrone
+2020-01-10 22:59:21,842|8624-INFO-GUI initialized
+2020-01-10 22:59:23,857|8624-INFO-User killed window.
+2020-01-10 23:01:03,588|9792-INFO-________________________________________________________________________________________________________
+2020-01-10 23:01:03,588|9792-INFO-Logged and loaded.
+2020-01-10 23:01:03,650|9792-INFO-Windows classes properly loaded.
+2020-01-10 23:01:03,650|9792-INFO-Running Admintool for PyDrone
+2020-01-10 23:01:03,916|9792-INFO-GUI initialized
+2020-01-10 23:01:42,273|9792-INFO-User killed window.
+2020-01-10 23:01:42,339|9792-INFO-Running Admintool for PyDrone
+2020-01-10 23:01:42,596|9792-INFO-GUI initialized
+2020-01-10 23:01:44,377|9792-INFO-User killed window.
+2020-01-11 13:47:07,259|6088||INFO|-|________________________________________________________________________________________________________
+2020-01-11 13:47:07,259|6088||INFO|-|Logged and loaded.
+2020-01-11 13:47:07,259|6088||INFO|-|Windows classes properly loaded.
+2020-01-11 13:47:07,259|6088||INFO|-|Running Admintool for PyDrone
+2020-01-11 13:47:08,509|6088||INFO|-|GUI initialized
+2020-01-11 13:47:10,910|6088||INFO|-|User killed window.
+2020-01-11 13:47:10,988|6088||INFO|-|Running Admintool for PyDrone
+2020-01-11 13:47:11,691|6088||INFO|-|GUI initialized
+2020-01-11 13:47:14,362|6088||INFO|-|User killed window.
+2020-01-11 13:56:09,548|6256||INFO|-|________________________________________________________________________________________________________
+2020-01-11 13:56:09,548|6256||INFO|-|Logged and loaded.
+2020-01-11 13:56:09,548|6256||INFO|-|Windows classes properly loaded.
+2020-01-11 13:56:09,548|6256||INFO|-|Running Admintool for PyDrone
+2020-01-11 13:56:09,782|6256||INFO|-|GUI initialized
+2020-01-11 13:56:13,531|6256||INFO|-|Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-11 13:59:11,907|9872||INFO|-|________________________________________________________________________________________________________
+2020-01-11 13:59:11,907|9872||INFO|-|Logged and loaded.
+2020-01-11 13:59:11,907|9872||INFO|-|Windows classes properly loaded.
+2020-01-11 13:59:11,907|9872||INFO|-|Running Admintool for PyDrone
+2020-01-11 13:59:12,157|9872||INFO|-|GUI initialized
+2020-01-11 13:59:15,808|9872||INFO|-|Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-11 13:59:17,267|9872||INFO|-|Call for Adminwindow
+2020-01-11 13:59:19,767|9872||INFO|-|User killed window.
+2020-01-11 13:59:25,047|9872||INFO|-|User killed window.
+2020-01-11 13:59:27,187|9872||INFO|-|User killed window.
+2020-01-11 13:59:29,858|9872||INFO|-|User killed window.
+2020-01-11 13:59:29,952|9872||INFO|-|Running Admintool for PyDrone
+2020-01-11 13:59:30,420|9872||INFO|-|GUI initialized
+2020-01-11 13:59:32,264|9872||INFO|-|User killed window.
+2020-01-11 14:00:45,937|2748||INFO|-|________________________________________________________________________________________________________
+2020-01-11 14:00:45,937|2748||INFO|-|Logged and loaded.
+2020-01-11 14:00:45,937|2748||INFO|-|Windows classes properly loaded.
+2020-01-11 14:00:45,937|2748||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:00:46,171|2748||INFO|-|GUI initialized
+2020-01-11 14:00:50,201|2748||INFO|-|Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-11 14:00:52,310|2748||INFO|-|Call for Adminwindow
+2020-01-11 14:00:55,262|2748||INFO|-|User killed Adminwindow.
+2020-01-11 14:03:15,500|844||INFO|-|________________________________________________________________________________________________________
+2020-01-11 14:03:15,500|844||INFO|-|Logged and loaded.
+2020-01-11 14:03:15,500|844||INFO|-|Windows classes properly loaded.
+2020-01-11 14:03:15,500|844||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:03:15,734|844||INFO|-|GUI initialized
+2020-01-11 14:03:19,208|844||INFO|-|Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-11 14:03:20,704|844||INFO|-|Call for Adminwindow
+2020-01-11 14:03:22,782|844||INFO|-|User killed Adminwindow.
+2020-01-11 14:03:26,781|844||INFO|-|User killed window.
+2020-01-11 14:03:26,858|844||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:03:27,271|844||INFO|-|GUI initialized
+2020-01-11 14:03:29,364|844||INFO|-|User killed window.
+2020-01-11 14:09:33,825|4672||INFO|-|________________________________________________________________________________________________________
+2020-01-11 14:09:33,825|4672||INFO|-|Logged and loaded.
+2020-01-11 14:09:33,825|4672||INFO|-|Windows classes properly loaded.
+2020-01-11 14:09:33,825|4672||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:09:34,091|4672||INFO|-|GUI initialized
+2020-01-11 14:09:37,749|4672||INFO|-|Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-11 14:09:39,170|4672||INFO|-|Call for Adminwindow
+2020-01-11 14:09:41,529|4672||INFO|-|User killed Adminwindow.
+2020-01-11 14:09:41,529|4672||CRITICAL|-|Killing of all windows wasn't possible.
+2020-01-11 14:10:57,716|4672||INFO|-|User killed window.
+2020-01-11 14:10:59,855|4672||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:11:00,074|4672||INFO|-|GUI initialized
+2020-01-11 14:11:02,399|4672||INFO|-|User killed window.
+2020-01-11 14:12:54,759|8476||INFO|-|________________________________________________________________________________________________________
+2020-01-11 14:12:54,759|8476||INFO|-|Logged and loaded.
+2020-01-11 14:12:54,774|8476||INFO|-|Windows classes properly loaded.
+2020-01-11 14:12:54,774|8476||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:12:55,040|8476||INFO|-|GUI initialized
+2020-01-11 14:13:15,841|8476||INFO|-|Loaded Vehicle PiTrike I | Status deactivated http://localhost/PiCar.xml
+2020-01-11 14:13:17,341|8476||INFO|-|Call for Adminwindow
+2020-01-11 14:13:19,637|8476||INFO|-|User killed Adminwindow.
+2020-01-11 14:13:19,668|8476||CRITICAL|-|Killing of all windows wasn't possible.
+2020-01-11 14:14:18,954|8476||INFO|-|User killed window.
+2020-01-11 14:14:19,048|8476||INFO|-|Running Admintool for PyDrone
+2020-01-11 14:14:19,454|8476||INFO|-|GUI initialized
+2020-01-11 14:14:21,969|8476||INFO|-|User killed window.

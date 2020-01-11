@@ -1,16 +1,17 @@
 from tkinter import *
-
+from time import sleep
 from ZentraleProzessEinheit.library import Vehicle, logg
 
 
-def Errorhandling():
+def Errorhandling(loop=bool):
     Error = Tk()
     __Error = Label(Error,
-                    text="An Error occured. Please check the log.",
+                    text="A critical Error occured. Please check the log.",
                     font="Times, 30",
                     fg="red")
     __Error.grid()
-    __Error.mainloop()
+    if loop:
+        __Error.mainloop()
 
 
 class MainWin:
@@ -132,11 +133,12 @@ class MainWin:
                 self.__Controlunit_Button.grid_remove()
 
             if self.vehicle.getattribute("JOL") == "True":
-                self.__Adminunit_Button.grid(row=2, column=3, rowspan=2)
+                pass
             else:
                 self.appout.set("Choose " + self.vehicle.getattribute("Name") + " from " + str(
                     self.__input_Vehicle.get()) + "\n" + "This vehicle isn't jol'able.")
                 self.__Adminunit_Button.grid_remove()
+            self.__Adminunit_Button.grid(row=2, column=3, rowspan=2)
 
     def __onclick_A(self):
         adminwin = AdminWin(self)
@@ -199,7 +201,7 @@ class AdminWin:
         self.vehicle = Toplevelframe.vehicle
 
         self.status = StringVar
-        self.Adminframe = Toplevel(Toplevelframe.root)
+        self.adminframe = Toplevel(Toplevelframe.root)
 
         self.vehicleattributes = self.vehicle.attributes.copy()
         # --------------------------Admingate------------------------------------------------------------------------------------
@@ -217,49 +219,49 @@ class AdminWin:
                              text="Quit",
                              command=self.admingate.destroy)
         # ---------------------Admminframe---------------------------------------------------------------------------------------
-        self.__GateLabel = Label(self.Adminframe,
+        self.__GateLabel = Label(self.adminframe,
                                  text="Please confirm access.",
                                  width=100,
                                  height=20,
                                  borderwidth=5,
                                  relief="groove")
 
-        self.__NameLabel = Label(self.Adminframe,
+        self.__NameLabel = Label(self.adminframe,
                                  text="Name",
                                  width=10,
                                  height=2,
                                  borderwidth=5,
                                  relief="groove")
 
-        self.__NameOutput = Label(self.Adminframe,
+        self.__NameOutput = Label(self.adminframe,
                                   text=self.vehicleattributes.get("Name"),
                                   width=10,
                                   height=2,
                                   borderwidth=5,
                                   relief="groove")
 
-        self.__StatusLabel = Label(self.Adminframe,
+        self.__StatusLabel = Label(self.adminframe,
                                    text="Status",
                                    width=10,
                                    height=2,
                                    borderwidth=5,
                                    relief="groove")
 
-        self.__StatusOutput = Label(self.Adminframe,
+        self.__StatusOutput = Label(self.adminframe,
                                     text=self.vehicleattributes.get("Status"),
                                     width=10,
                                     height=2,
                                     borderwidth=5,
                                     relief="groove")
         # --------------------------------Pin-----------------------------------------
-        self.__WheelFWLabel = Label(self.Adminframe,
+        self.__WheelFWLabel = Label(self.adminframe,
                                     text="FW-Pin",
                                     width=10,
                                     height=2,
                                     borderwidth=5,
                                     relief="groove")
 
-        self.__WheelFWOutput = Button(self.Adminframe,
+        self.__WheelFWOutput = Button(self.adminframe,
                                       text=self.vehicleattributes.get("FW"),
                                       width=10,
                                       height=2,
@@ -267,19 +269,19 @@ class AdminWin:
                                       relief="raised",
                                       command=self.__changeFW)
 
-        self.__NewWheelFW = Entry(self.Adminframe,
+        self.__NewWheelFW = Entry(self.adminframe,
                                   width=10,
                                   borderwidth=5,
                                   relief="sunken")
 
-        self.__WheelBWLabel = Label(self.Adminframe,
+        self.__WheelBWLabel = Label(self.adminframe,
                                     text="BW-pin",
                                     width=10,
                                     height=2,
                                     borderwidth=5,
                                     relief="groove")
 
-        self.__WheelBWOutput = Button(self.Adminframe,
+        self.__WheelBWOutput = Button(self.adminframe,
                                       text=self.vehicleattributes.get("BW"),
                                       width=10,
                                       height=2,
@@ -287,52 +289,52 @@ class AdminWin:
                                       relief="raised",
                                       command=self.__changeBW)
 
-        self.__NewWheelBW = Entry(self.Adminframe,
+        self.__NewWheelBW = Entry(self.adminframe,
                                   width=10,
                                   borderwidth=5,
                                   relief="sunken")
         # -----------------------------------------------------------------------------------
-        self.__URLLabel = Label(self.Adminframe,
+        self.__URLLabel = Label(self.adminframe,
                                 text="URL ",
                                 width=15,
                                 height=2,
                                 borderwidth=5,
                                 relief="groove")
 
-        self.__URLOutput = Label(self.Adminframe,
+        self.__URLOutput = Label(self.adminframe,
                                  text=self.vehicleattributes.get("URL"),
                                  width=15,
                                  height=2,
                                  borderwidth=5,
                                  relief="groove")
 
-        self.__JOLLabel = Label(self.Adminframe,
+        self.__JOLLabel = Label(self.adminframe,
                                 text="JOL'able ",
                                 width=15,
                                 height=2,
                                 borderwidth=5,
                                 relief="groove")
 
-        self.__JOLOutput = Label(self.Adminframe,
+        self.__JOLOutput = Label(self.adminframe,
                                  text=self.vehicleattributes.get("JOL"),
                                  width=15,
                                  height=2,
                                  borderwidth=5,
                                  relief="groove")
 
-        self.__GreyBar = Label(self.Adminframe,
+        self.__GreyBar = Label(self.adminframe,
                                width=60,
                                borderwidth=5,
                                relief="groove")
 
-        self.__StatusChangeLabel = Label(self.Adminframe,
+        self.__StatusChangeLabel = Label(self.adminframe,
                                          text="Change \n Status ",
                                          width=10,
                                          height=5,
                                          borderwidth=5,
                                          relief="groove")
 
-        self.__Statuschange_Deactivated = Radiobutton(self.Adminframe,
+        self.__Statuschange_Deactivated = Radiobutton(self.adminframe,
                                                       text="Deactivate",
                                                       width=10,
                                                       height=2,
@@ -342,7 +344,7 @@ class AdminWin:
                                                       command=self.__set_deactivated,
                                                       variable=self.status)
 
-        self.__StatusChange_ready = Radiobutton(self.Adminframe,
+        self.__StatusChange_ready = Radiobutton(self.adminframe,
                                                 text="Ready",
                                                 width=10,
                                                 height=2,
@@ -352,11 +354,24 @@ class AdminWin:
                                                 command=self.__set_ready,
                                                 variable=self.status)
 
-        self.__SaveChanges = Button(self.Adminframe,
+        self.__SaveChanges = Button(self.adminframe,
                                     text="Save",
                                     width=10,
                                     height=2,
                                     command=self.__savechanges)
+
+    def __onDestroy(self):
+        logg.logging.info("User killed Adminwindow.")
+        try:
+            self.admingate.destroy()
+            self.adminframe.destroy()
+        except AttributeError:
+            logg.logging.critical("Killing of all windows wasn't possible.")
+            Errorhandling(False)
+            sleep(2)
+            SystemExit(2)
+        else:
+            pass
 
     def __changeFW(self):
         self.__WheelFWOutput.grid_remove()
@@ -393,10 +408,12 @@ class AdminWin:
         self.vehicle.attributes.update(self.vehicleattributes)
         logg.logging.info(self.vehicleattributes["Name"] + " Changes are now saved")
         self.vehicle.save_changes()
-        self.Adminframe.destroy()
+        self.adminframe.destroy()
 
     def build_gate(self):
         try:
+            self.admingate.protocol("WM_DELETE_WINDOW", self.__onDestroy)
+            self.adminframe.protocol("WM_DELETE_WINDOW", self.__onDestroy)
             self.__Infolabel.grid(row=0, column=0)
             self.__Passentry.grid(row=0, column=1)
             self.__Submit.grid(row=1, column=0)
@@ -440,15 +457,15 @@ class AdminWin:
             self.__WheelBWOutput.grid(row=4, column=3)
 
         except ValueError:
-            self.Adminframe.destroy()
+            self.adminframe.destroy()
             logg.logging.debug("ValueError occured in main", exc_info=True)
             Errorhandling()
         except TypeError:
-            self.Adminframe.destroy()
+            self.adminframe.destroy()
             logg.logging.debug("TypeError occured in main", exc_info=True)
             Errorhandling()
         except NameError:
-            self.Adminframe.destroy()
+            self.adminframe.destroy()
             logg.logging.debug("TypeError occured in main", exc_info=True)
             Errorhandling()
 

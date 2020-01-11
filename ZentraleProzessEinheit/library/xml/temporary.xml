@@ -1,17 +1,8 @@
-<root>
-    <Name>Pitank Mark I</Name>
-    <Status>Ready</Status>
-    <JobUrl>172.168.8.200/main</JobUrl>
-    <JOL>True</JOL>
-    <Adminpasscode>6489 3956</Adminpasscode>
-
-    <data>
-        <FW>38</FW>
-        <BW>36</BW>
-    </data>
-
-    <License>
-        <Distance>False</Distance>
-        <Airsense>False</Airsense>
-    </License>
-</root>
+<?xml version="1.0" encoding="UTF-8" ?>
+    <root>
+        <Name>PiTrike I</Name>
+        <Status>deactivated</Status>
+        <JobUrl>172.168.8.120/main</JobUrl>
+        <JOL>False</JOL>
+        <Adminpasscode>5483 9543</Adminpasscode>
+    </root>

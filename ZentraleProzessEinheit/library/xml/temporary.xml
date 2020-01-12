@@ -1,17 +1,15 @@
 <root>
-    <Name>newName</Name>
-    <Status>Deactivated</Status>
-    <JobUrl>TBD</JobUrl>
-    <JOL>True</JOL>
-    <Adminpasscode>2765 4945</Adminpasscode>
-
-    <data>
-        <FW>38</FW>
-        <BW>36</BW>
-    </data>
-
-    <License>
-        <Distance>False</Distance>
-        <Airsense>False</Airsense>
-    </License>
+<Name>PiTank - Mark I</Name>
+<Status>Ready</Status>
+<JobUrl>172.168.8.200/main</JobUrl>
+<JOL>True</JOL>
+<Adminpasscode>6489 3956</Adminpasscode>
+<data>
+<FW>38</FW>
+<BW>36</BW>
+</data>
+<License>
+<Distance>False</Distance>
+<Airsense>False</Airsense>
+</License>
 </root>

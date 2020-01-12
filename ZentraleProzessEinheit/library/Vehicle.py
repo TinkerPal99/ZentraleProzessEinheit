@@ -2,16 +2,18 @@ import shutil
 from urllib.request import *
 import xml.etree.cElementTree as xmlparser
 from random import randint
-from urllib import request
-import requests
+import socket
 
 
 class Vehicle:
 
     def __init__(self, url=str):
-        # consructor, zieht daten von weburl wenn angegeben, sonst werden daten von temp gezogen
+        # consructor, zieht daten von weburl wenn angegeben
         self.url = url
-        self.temp = "xml/temporary.xml"  # "library/xml/temporary.xml"
+        self.temp = "library/xml/temporary.xml" # "xml/temporary.xml"
+        s = url.split("/")
+        self.file = s[-1]
+        self.adress = s[2]
 
         if url == "":
             raise FileNotFoundError
@@ -61,9 +63,28 @@ class Vehicle:
         self.tree.write(self.temp)
 
         if self.web:
-            uploadfile = {"file": open(self.temp, "rb")}
-            print(requests.put(self.url, uploadfile).reason + "Upload wasn't possible. Feature is momentarily not "
-                                                              "supported.")
+            text = open(self.temp, "r").read()
+
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            adresse = self.adress
+
+            try:
+                s.connect((adresse, 1200))
+            except ConnectionRefusedError:
+                # logg.logging.warning("Connection Refused", exc_info=True)
+                SystemExit(2)
+            except OSError:
+                # logg.logging.critical("Servererror", exc_info=True)
+                SystemExit(2)
+            # logg.logging.info("Verbunden mit " + str(adresse))
+            message = s.recv(1024)
+            print(message.decode("ascii"))
+
+            nachricht = self.file.encode("ascii")
+            s.send(nachricht)
+            nachricht = str(text).encode("ascii")
+            s.send(nachricht)
+            s.close()
 
     def getattribute(self, attributename):
         try:
@@ -131,9 +152,8 @@ class Vehicle:
 
 
 def __test_method():
-    sim = Vehicle("http://192.168.0.102/Copy.xml")
-    sim.attributes["Name"] = "newName"
-    print(open(sim.temp, "rb"))
+    sim = Vehicle("http://192.168.0.104/PiTank.xml")
+    sim.attributes["Name"] = "PiTank - Mark I"
     sim.save_changes()
 
 

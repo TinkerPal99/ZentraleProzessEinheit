@@ -918,3 +918,36 @@ FileNotFoundError: [Errno 2] No such file or directory: 'xml/temporary.xml'
 2020-01-11 14:14:19,048|8476||INFO|-|Running Admintool for PyDrone
 2020-01-11 14:14:19,454|8476||INFO|-|GUI initialized
 2020-01-11 14:14:21,969|8476||INFO|-|User killed window.
+2020-01-14 21:24:38,895|9024||INFO|-|Windows classes properly loaded.
+2020-01-14 21:24:38,895|9024||INFO|-|________________________________________________________________________________________________________
+2020-01-14 21:24:38,895|9024||INFO|-|Running Admintool for PyDrone
+2020-01-14 21:24:40,347|9024||INFO|-|GUI initialized
+2020-01-14 21:24:45,251|9024||INFO|-|User killed window.
+2020-01-14 21:38:54,208|10624||INFO|-|________________________________________________________________________________________________________
+2020-01-14 21:38:54,208|10624||INFO|-|Windows classes properly loaded.
+2020-01-14 21:38:54,208|10624||INFO|-|Running Admintool for PyDrone
+2020-01-14 21:38:54,489|10624||INFO|-|GUI initialized
+2020-01-14 21:38:58,121|10624||INFO|-|User killed window.
+2020-01-14 21:44:44,085|6392||INFO|-|________________________________________________________________________________________________________
+2020-01-14 21:44:48,303|6392||INFO|-|Windows classes properly loaded.
+2020-01-14 21:44:48,303|6392||INFO|-|Running Admintool for PyDrone
+2020-01-14 21:44:48,615|6392||INFO|-|GUI initialized
+2020-01-14 21:45:13,434|6392||WARNING|-|File 'http://192.168.0.104/PiTank.xml' user searched for was not found.
+Traceback (most recent call last):
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\Windows.py", line 117, in __onReturn
+    self.vehicle = Vehicle.Vehicle(output)
+  File "C:\Users\marwi\PycharmProjects\ZPE\ZentraleProzessEinheit\library\Vehicle.py", line 21, in __init__
+    urlretrieve(url, self.temp)
+  File "C:\Users\marwi\AppData\Local\Programs\Python\Python38-32\lib\urllib\request.py", line 257, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'library/xml/temporary.xml'
+2020-01-14 21:45:56,952|6392||INFO|-|User killed window.
+2020-01-14 21:48:10,166|6740||INFO|-|________________________________________________________________________________________________________
+2020-01-14 21:48:10,166|6740||INFO|-|Windows classes properly loaded.
+2020-01-14 21:48:10,166|6740||INFO|-|Running Admintool for PyDrone
+2020-01-14 21:48:10,432|6740||INFO|-|GUI initialized
+2020-01-14 21:48:25,665|6740||INFO|-|Loaded Vehicle PiTank - Mark I | Status Ready http://192.168.0.104/PiTank.xml
+2020-01-14 21:48:27,664|6740||INFO|-|Call for Adminwindow
+2020-01-14 21:49:05,788|6740||INFO|-|PiTank - Mark I was set on deactivated.
+2020-01-14 21:49:15,316|6740||INFO|-|PiTank - Mark I Changes are now saved
+2020-01-14 21:53:05,107|6740||INFO|-|User killed window.

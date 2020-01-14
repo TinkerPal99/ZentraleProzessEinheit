@@ -10,7 +10,7 @@ class Vehicle:
     def __init__(self, url=str):
         # consructor, zieht daten von weburl wenn angegeben
         self.url = url
-        self.temp = "library/xml/temporary.xml" # "xml/temporary.xml"
+        self.temp = "ZentraleProzessEinheit/library/xml/temporary.xml" # "xml/temporary.xml"
         s = url.split("/")
         self.file = s[-1]
         self.adress = s[2]

@@ -1,5 +1,5 @@
 import socket
-from Dispatcher.logs import logg
+from Dispatcher.logs_ import logg
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 adresse = '192.168.0.104'

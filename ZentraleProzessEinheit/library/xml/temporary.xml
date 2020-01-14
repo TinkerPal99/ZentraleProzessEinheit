@@ -1,12 +1,12 @@
 <root>
 <Name>PiTank - Mark I</Name>
-<Status>Ready</Status>
+<Status>Deactivated</Status>
 <JobUrl>172.168.8.200/main</JobUrl>
 <JOL>True</JOL>
 <Adminpasscode>6489 3956</Adminpasscode>
 <data>
-<FW>38</FW>
-<BW>36</BW>
+<FW>0</FW>
+<BW>0</BW>
 </data>
 <License>
 <Distance>False</Distance>

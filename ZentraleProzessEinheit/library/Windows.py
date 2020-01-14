@@ -1,6 +1,8 @@
 from tkinter import *
 from time import sleep
-from ZentraleProzessEinheit.library import Vehicle, logg
+from ZentraleProzessEinheit.library import Vehicle
+from ZentraleProzessEinheit.logs import logg
+
 
 
 def Errorhandling(loop=bool):

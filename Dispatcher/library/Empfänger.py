@@ -1,4 +1,5 @@
 import socket
+#TODO import logger
 from library import logg
 
 s = socket.socket()
